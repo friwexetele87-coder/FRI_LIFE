@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FRI_LIFE</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="overlay">
+    <h1>✨ FRI_LIFE ✨</h1>
+    <p>🔥 Transforme ton corps. Change ta vie.</p>
+  </div>
+</header>
+
+<div class="container">
+
+<section class="dashboard">
+  <h2>💰 Mes revenus</h2>
+  <p id="totalRevenue">0 FCFA</p>
+  <p id="totalOrders">0 commandes</p>
+</section>
+
+<section>
+<h2>🔥 Nos Produits</h2>
+<div id="products"></div>
+</section>
+
+<section id="formSection" style="display:none;">
+<h2>🛒 Finaliser ta commande</h2>
+<input type="text" id="nom" placeholder="Nom">
+<input type="text" id="prenom" placeholder="Prénom">
+<input type="text" id="ville" placeholder="Ville">
+<input type="text" id="adresse" placeholder="Adresse">
+<button id="payBtn">Commander 🛒</button>
+</section>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
